@@ -181,7 +181,7 @@ while test "$#" -gt 0; do
     ;;
 
   --configure)
-    echo " '--prefix=/home/susan/curl-8.9.1/build' '--host=x86_64-linux' '--with-openssl=/home/susan/openssl/build' 'CFLAGS=-I/home/susan/openssl/build/include/openssl -L/home/susan/openssl/build/lib64' 'host_alias=x86_64-linux' 'CC=/home/susan/x86_64-linux-musl-cross/bin/x86_64-linux-musl-gcc'"
+    echo " '--prefix=/home/susan/curl-8.9.1/build' '--with-openssl=/home/susan/openssl/build' 'CFLAGS=-I/home/susan/openssl/build/include/openssl -L/home/susan/openssl/build/lib64' '--enable-http' '--host=x86_64-linux' 'host_alias=x86_64-linux' 'CC=/home/susan/x86_64-linux-musl-cross/bin/x86_64-linux-musl-gcc'"
     ;;
 
   *)
